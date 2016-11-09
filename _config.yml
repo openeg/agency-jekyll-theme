@@ -1,17 +1,18 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://openeg.github.io
+#url: http://localhost:4000
+baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: OpenEg
+email: yskim511@gmail.com
+description: "Open Export Group은 시큐어코딩/웹서비스보안/모바일앱/빅데이터처리/클라우드컴퓨팅/오픈소스프레임워크/아키텍처 IT 기술 전반의 각 분야별 전문가 그룹으로 교육/컨설팅/컨텐츠제작/출판 서비스를 제공합니다."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: 김영숙
   pic: 1
-  position: Lead Designer
+  position: CEO
   social:
     - title: twitter
       url: #
@@ -20,9 +21,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: 황정욱
   pic: 2
-  position: Lead Marketer
+  position: CTO
   social:
     - title: twitter
       url: #
@@ -31,7 +32,7 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: 아이유
   pic: 3
   position: Lead Developer
   social:
@@ -50,7 +51,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
