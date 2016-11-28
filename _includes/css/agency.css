@@ -167,12 +167,12 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #fff; /*흰색*/
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #222; /*검정색*/
 }
 
 .navbar-default .navbar-brand {
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.secondary }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -267,9 +267,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #003366;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/headerbg2.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -354,6 +354,35 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+data {
+    padding: 100px 0;
+}
+
+data h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+data h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+.data-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
